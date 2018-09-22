@@ -14,5 +14,7 @@ contract Example is EventLogger {
     emit Uint(num);
     // Log address
     emit Address(address(this));
+    // Emit Hello World
+    emit String("Hello World");
   }
 }
